@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Academic homepage for a researcher in microeconomic theory."
+    />
+    <title>Zhuo Chen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=20260901-3" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="site-name" href="index.html">Zhuo Chen</a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation"
+        aria-controls="site-navigation"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-navigation" aria-label="Primary navigation">
+        <a class="active" href="index.html" aria-current="page">About Me</a>
+        <a href="research.html">Research</a>
+        <a href="research-cn.html" lang="zh-CN">中文研究</a>
+        <button class="search-toggle" type="button" aria-label="Search this site">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="10.8" cy="10.8" r="6.8"></circle>
+            <path d="m16 16 5 5"></path>
+          </svg>
+        </button>
+      </nav>
+
+      <button
+        class="search-toggle mobile-search-toggle"
+        type="button"
+        aria-label="Search this site"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="10.8" cy="10.8" r="6.8"></circle>
+          <path d="m16 16 5 5"></path>
+        </svg>
+      </button>
+    </header>
+
+    <main>
+      <h1 class="page-title">About Me</h1>
+
+      <section class="home-layout" aria-label="About me">
+        <div class="home-copy">
+          <p>
+            Welcome to my webpage. I am an Assistant Professor at the Center of
+            Economics Research, Shandong University.
+          </p>
+
+          <p>
+            My research focuses on Microeconomic Theory, with particular interests
+            in Dynamic Incentives, Information Disclosure, and Behavioral Economics.
+          </p>
+
+          <p>
+            You can find more information on my research
+            <a href="research.html">here</a> and my CV
+            <a href="assets/Zhuo_Chen_CV_selected.pdf" target="_blank" rel="noopener">here</a>.
+            For my research written in Chinese, click
+            <a href="research-cn.html">here</a>.
+          </p>
+
+          <section class="contact-block" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact Details</h2>
+            <dl>
+              <div>
+                <dt>Email</dt>
+                <dd><a href="mailto:zhuochen@sdu.edu.cn">zhuochen@sdu.edu.cn</a></dd>
+              </div>
+              <div>
+                <dt>Mailing Address</dt>
+                <dd>27 Shanda Nanlu, Jinan, P.R.China 250100</dd>
+              </div>
+            </dl>
+          </section>
+        </div>
+
+        <figure class="portrait-wrap">
+          <img
+            class="portrait"
+            src="assets/profile.png"
+            alt="Portrait of Zhuo Chen"
+            width="280"
+            height="329"
+          />
+        </figure>
+      </section>
+    </main>
+
+    <dialog class="search-dialog" aria-labelledby="search-title">
+      <form method="dialog" class="search-panel">
+        <div class="search-heading">
+          <h2 id="search-title">Search this site</h2>
+          <button class="search-close" value="close" aria-label="Close search">×</button>
+        </div>
+        <label for="site-search">Search term</label>
+        <input id="site-search" type="search" autocomplete="off" />
+        <div class="search-results" aria-live="polite"></div>
+      </form>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="陈茁关于研发竞赛的中文研究。" />
+    <title>中文研究 | Zhuo Chen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Noto+Serif+SC:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=20260901-3" />
+  </head>
+  <body class="chinese-page">
+    <header class="site-header">
+      <a class="site-name" href="index.html">Zhuo Chen</a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="打开导航"
+        aria-controls="site-navigation"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-navigation" aria-label="主要导航">
+        <a href="index.html">About Me</a>
+        <a href="research.html">Research</a>
+        <a class="active" href="research-cn.html" aria-current="page">中文研究</a>
+        <button class="search-toggle" type="button" aria-label="搜索本站">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="10.8" cy="10.8" r="6.8"></circle>
+            <path d="m16 16 5 5"></path>
+          </svg>
+        </button>
+      </nav>
+
+      <button
+        class="search-toggle mobile-search-toggle"
+        type="button"
+        aria-label="搜索本站"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="10.8" cy="10.8" r="6.8"></circle>
+          <path d="m16 16 5 5"></path>
+        </svg>
+      </button>
+    </header>
+
+    <main>
+      <h1 class="page-title">中文研究</h1>
+
+      <div class="research-page" id="chinese-research-list">
+        <section class="research-section">
+          <h2>研究方向</h2>
+          <p>研发竞赛、前沿技术路线布局与创新激励政策。</p>
+        </section>
+
+        <section class="research-section paper-section">
+          <h2>发表论文</h2>
+
+          <article class="paper-entry">
+            <p class="paper-citation">
+              <a
+                href="assets/rd-competition-cn.pdf"
+                target="_blank"
+                rel="noopener"
+                >大国科技竞争下的前沿技术路线布局与研发资助策略</a
+              >（与赵艺璇、刘运合作），《经济研究》，2026年第4期，144–166页。
+            </p>
+            <p>
+              随着我国工业体系在全球价值链上的渐进升级，我国企业需直面与发达国家在关键核心技术研发领域的排他性竞争，并抢占前沿技术领域的话语主导权。本文构建了一个考虑外国企业可能率先实现技术突破的非对称动态研发竞赛模型，理论分析了我国企业的技术路线与研发投入选择，以及相应的政府最优技术路线布局与研发投入资助策略。研究发现，在单一技术路线下，政府应根据外部时间压力动态调整资助策略：压力较小时，遵循“研发效率优先”原则集中支持低成本企业；面临紧迫压力时，则转向“突破时间优先”，通过资助高成本企业维持并行研发，以效率换取整体胜率。当存在多条技术路线时，企业基于利润最大化目标倾向于“扎堆”同一技术路线研发，从而忽视其他路线的潜在突破可能，导致市场自发的技术路线选择背离政府最大化整体胜率的目标。政府可通过对选择劣势路线的企业提供路线布局资助，抑制企业在低成本路线上的“内卷式”研发，形成多路线并行探索的协同研发格局。本文提出的“布局—投入”两阶段研发资助策略在尊重企业自主决策权的同时，促进了企业目标与国家战略的协同，为在市场经济条件下完善关键核心技术攻关的新型举国体制提供了学理基础。
+            </p>
+          </article>
+        </section>
+
+        <section class="research-section paper-section">
+          <h2>在研工作</h2>
+
+          <article class="paper-entry">
+            <p class="paper-citation">
+              <span class="paper-title">破解研发竞赛中数据要素交易的“竞合困境”——要素非竞争性视角下的最优政策选择</span>（与赵艺璇合作）。
+            </p>
+            <p>
+              本文研究研发竞赛中的数据交易问题，关注数据的非竞争性如何影响数据优势企业的交易意愿和双方的研发进入决策，以及政府如何联合设计数据流通与研发激励。
+            </p>
+          </article>
+
+          <article class="paper-entry">
+            <p class="paper-citation">
+              <span class="paper-title">科技竞争中的稀缺要素配置——竞价挤占、要素错配与研发政策设计</span>（与赵艺璇合作）。
+            </p>
+            <p>
+              本文研究科技竞争中算力、研发人才等短期供给受限且与企业存在匹配差异的稀缺要素如何在企业之间配置，以及政府如何通过补贴、研发联盟和知识产权制度改善要素配置。
+            </p>
+          </article>
+        </section>
+      </div>
+    </main>
+
+    <dialog class="search-dialog" aria-labelledby="search-title">
+      <form method="dialog" class="search-panel">
+        <div class="search-heading">
+          <h2 id="search-title">搜索本站</h2>
+          <button class="search-close" value="close" aria-label="关闭搜索">×</button>
+        </div>
+        <label for="site-search">搜索词</label>
+        <input id="site-search" type="search" autocomplete="off" />
+        <div class="search-results" aria-live="polite"></div>
+      </form>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
